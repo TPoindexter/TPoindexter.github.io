@@ -592,7 +592,7 @@ header {
   border-bottom: solid 1px #275da1; }
 
 header h1 {
-  width: 540px;
+  width: 100%;
   margin-top: 0;
   margin-bottom: 0.2em;
   font-size: 72px;
@@ -602,7 +602,7 @@ header h1 {
   letter-spacing: -1px; }
 
 header h2 {
-  width: 540px;
+  width: 100%;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 26px;
