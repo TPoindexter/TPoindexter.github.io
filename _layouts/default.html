@@ -12,11 +12,11 @@
   </head>
   <body>
     <header>
-      <div>
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-              <h2>{{ site.description | default: site.github.project_tagline | width}}</h2>
+      <div class="inner">
         <a href="{{ '/' | absolute_url }}">
+          <h1 style=display:block;>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
+        <h2 style=display:block;>{{ site.description | default: site.github.project_tagline | width}}</h2>
       </div>
     </header>
 
