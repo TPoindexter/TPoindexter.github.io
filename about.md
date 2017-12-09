@@ -1,5 +1,5 @@
 ___
-layout: post
+layout: page
 title: please work 
 date: 2017-12-9
 categories: setup
