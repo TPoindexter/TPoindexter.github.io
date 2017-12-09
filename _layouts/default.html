@@ -19,9 +19,9 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name | width: 100% }}</h1>
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline | width 100% }}</h2>
+        <h2>{{ site.description | default: site.github.project_tagline | width}}</h2>
 <!--
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
