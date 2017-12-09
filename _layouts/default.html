@@ -8,17 +8,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
 
-  <h1>{{ site.title | default: site.github.repository_name }}</h1>
-    <h2>{{ site.description | default: site.github.project_tagline | width}}</h2>
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
 {% seo %}
   </head>
   <body>
     <header>
-      <div class="inner">
+      <div>
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+              <h2>{{ site.description | default: site.github.project_tagline | width}}</h2>
         <a href="{{ '/' | absolute_url }}">
         </a>
       </div>
