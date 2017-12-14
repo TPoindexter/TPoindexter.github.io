@@ -1,10 +1,10 @@
-___
+---
 layout: post
 title: "Why Organizations Like BCC Need to Exist"
 date: 2017-12-09 
 categories: experiences 
-___
-<pre>
+---
+
 # Why Organizations Like BCC Need to Exist
     A little over a year ago, some colleagues and I decided to create an organization that would provide a safe space and community for Software Engineers of color. We called it Black Code Collective (BCC). Since BCC has come to fruition, I have sometimes had people ask me why such a community is necessary. Questioning why people of color just don’t join the tech groups that are already in existence. For some white people, people of color (POCs) separating themselves can come across as backwards, but I’m hoping to shed some light on why we sometimes choose to do so.
 
@@ -23,5 +23,3 @@ ___
 
 ## Empowerment
     Negative stereotypes about POCs are still prevalent in our society, and they can sometimes seep into the psyche of POCs themselves. Being surrounding by intellectual POCs that are where you are in your career or even potentially where you dream to be can be incredibly empowering. POCs rarely see representation of people that look like them, and that can sometimes be discouraging. Being reminded that there are folks like yourself that are crushing obstacles and excelling can be the extra push that you need to keep going. Not to mention being an example for the younger generation. I had never dreamed of being a Software Engineer until an older family friend convinced me to take a Computer Science class during my time at UVA. Changing my life forever…
-
-</pre>
