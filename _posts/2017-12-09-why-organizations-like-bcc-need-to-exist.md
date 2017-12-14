@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Why Organizations Like BCC Need to Exist"
 date: 2017-12-09 
 categories: experiences 
