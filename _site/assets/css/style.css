@@ -994,6 +994,9 @@ header h2 {
   text-align: center;
   letter-spacing: 0; }
 
+li {
+  list-style-type: none; }
+
 .inner {
   position: relative;
   width: 100%;
