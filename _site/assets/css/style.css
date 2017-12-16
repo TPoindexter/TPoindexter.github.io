@@ -964,3 +964,49 @@ footer a:hover {
     content: none; } }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  text-align: center;
+  border-bottom: solid 1px #275da1; }
+
+header h1 {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  font-size: 72px;
+  font-weight: normal;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  letter-spacing: -1px; }
+
+header h2 {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 1.3;
+  color: #9ddcff;
+  text-align: center;
+  letter-spacing: 0; }
+
+.inner {
+  position: relative;
+  width: 100%;
+  margin: 0 auto; }
+
+#content-wrapper {
+  padding-top: 30px;
+  word-wrap: normal;
+  border-top: solid 1px #fff; }
+
+#main-content {
+  margin: 2em; }
+
+code {
+  white-space: initial;
+  line-height: 2em; }
