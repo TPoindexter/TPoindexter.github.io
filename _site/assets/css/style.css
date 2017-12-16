@@ -995,6 +995,7 @@ header h2 {
   letter-spacing: 0; }
 
 li {
+  padding: 10;
   list-style-type: none; }
 
 .inner {
@@ -1012,4 +1013,5 @@ li {
 
 code {
   white-space: initial;
-  line-height: 2em; }
+  line-height: 2em;
+  margin: 2em; }

@@ -33,6 +33,7 @@ header h2 {
   letter-spacing: 0; }
 
   li {
+    padding: 10;
     list-style-type: none;
   }
 
@@ -53,4 +54,5 @@ header h2 {
 code { 
   white-space: initial;
   line-height: 2em;
+  margin: 2em;
 } 

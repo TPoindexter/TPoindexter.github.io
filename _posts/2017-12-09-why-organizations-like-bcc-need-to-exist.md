@@ -15,11 +15,7 @@ categories: experiences
 
     In addition to this, these differences in life experiences can also leave a gap in mentoring connections. A POC will have certain work experiences that a white colleague will not, so it’s beneficial for a POC to have a support system to turn to for advice in situations such as this. It could be something as simple as how a black woman wears her hair in the workplace. Some styles she may sport could be deemed “unprofessional” or “unkempt”. Having someone that has experienced similar stresses can be comforting, and allow for more in-depth advice.  
 
-<<<<<<< HEAD:_posts/2017-12-09-why-orgs-like-black-code-collective-should-exist.md
-## Keeping in the Know
-=======
-### Keeping in the know
->>>>>>> 3374322550436df89ac455441d7fdac560067c1d:_posts/2017-12-09-why-organizations-like-bcc-need-to-exist.md
+### Keeping in the Know
     A lot of opportunities are awarded through nepotism and other forms of favoring those in your network. The problem is a) it’s uncommon for a large amount of POCs to be in the know about these positions and b) even if they do know, they can sometimes be overlooked because another candidate has the “inside connection”. BCC aims to help bridge this gap. We talk daily through Slack, an online chat communication application, to share opportunities that we each know about as well as make connections through our networks when necessary. 
 
     In addition to sharing opportunities, we also share information about new technologies and have technical discussions. Small conversations within a safe space such as this has several benefits. Within Software Engineering, things change swiftly, so being in the know about new technologies is paramount. Other technical organizations also share information about new tools, but again, feeling comfortable enough to ask questions and have a dialogue is essential to an engineer being able to grow. Outside of how useful a piece of software is, a POC may find certain products interesting simply because it was built by a fellow POC or the software was built to serve POC communities. These tools typically aren’t shared within mainstream technical groups. 
