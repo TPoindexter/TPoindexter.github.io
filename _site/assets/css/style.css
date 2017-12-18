@@ -1011,6 +1011,12 @@ li {
 #main-content {
   margin: 2em; }
 
+aside#sidebar {
+  min-height: 0;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-image: none; }
+
 code {
   white-space: initial;
   line-height: 2em;
