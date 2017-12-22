@@ -35,8 +35,13 @@ header h2 {
   li {
     padding: 10;
     list-style-type: none;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   }
 
+  p {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  }
+  
 .inner {
   position: relative;
   width: 100%;
@@ -49,6 +54,13 @@ header h2 {
 
 #main-content{
   margin: 2em;
+}
+
+img {
+  border-radius: 75%;
+  width: 110px;
+  height: 110px;
+  border: 6px solid #2879d0;
 }
 
 aside#sidebar {
