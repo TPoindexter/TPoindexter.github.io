@@ -1009,7 +1009,9 @@ p {
 
 div {
   margin-left: 3cm;
-  margin-right: 3cm; }
+  margin-right: 3cm;
+  text-align: center;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 
 h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
