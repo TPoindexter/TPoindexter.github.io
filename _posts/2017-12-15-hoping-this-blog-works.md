@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Hoping This Blog Works"
 date: 2017-12-09 
 categories: experiences 

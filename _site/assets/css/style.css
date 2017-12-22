@@ -1000,6 +1000,9 @@ li {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 
 p {
+  padding: 4mm;
+  margin-left: 15cm;
+  margin-right: 15cm;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 
 .inner {
@@ -1016,6 +1019,7 @@ p {
   margin: 2em; }
 
 img {
+  margin-top: 5mm;
   border-radius: 75%;
   width: 110px;
   height: 110px;
