@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/cmark.h
+stdio.h
+-
+stdint.h
+-
+cmark_export.h
+../src/cmark_export.h
+cmark_version.h
+../src/cmark_version.h
+
+/Users/kivikakk/Code/gjtorikian/commonmarker/ext/commonmarker/cmark-upstream/api_test/cplusplus.cpp
+cstdlib
+-
+cmark.h
+/Users/kivikakk/Code/gjtorikian/commonmarker/ext/commonmarker/cmark-upstream/api_test/cmark.h
+cplusplus.h
+/Users/kivikakk/Code/gjtorikian/commonmarker/ext/commonmarker/cmark-upstream/api_test/cplusplus.h
+harness.h
+/Users/kivikakk/Code/gjtorikian/commonmarker/ext/commonmarker/cmark-upstream/api_test/harness.h
+
+/Users/kivikakk/Code/gjtorikian/commonmarker/ext/commonmarker/cmark-upstream/api_test/cplusplus.h
+harness.h
+/Users/kivikakk/Code/gjtorikian/commonmarker/ext/commonmarker/cmark-upstream/api_test/harness.h
+
+/Users/kivikakk/Code/gjtorikian/commonmarker/ext/commonmarker/cmark-upstream/api_test/harness.h
+
+src/cmark_export.h
+
+src/cmark_version.h
+
