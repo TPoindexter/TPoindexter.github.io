@@ -393,9 +393,9 @@ header h1 { width: 100%; margin-top: 0; margin-bottom: 0.2em; font-size: 72px; f
 
 header h2 { width: 100%; margin-top: 0; margin-bottom: 0; font-size: 26px; font-weight: normal; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; line-height: 1.3; color: #9ddcff; text-align: center; letter-spacing: 0; }
 
-li { padding: 10; list-style-type: none; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
+ol { padding: 0; margin: 5px 0 10px 0; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 
-p { padding: 4mm; margin-left: 38%; margin-right: 38%; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
+body ol li { padding-left: .5mm; }
 
 a:link { text-decoration: underline; }
 
@@ -403,13 +403,21 @@ div { margin-left: 3cm; margin-right: 3cm; text-align: center; font-family: 'Arc
 
 h1 { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 
+h2 { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
+
 h3 { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
+
+p { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 
 .inner { position: relative; width: 100%; margin: 0 auto; }
 
 #content-wrapper { padding-top: 30px; word-wrap: normal; border-top: solid 1px #fff; }
 
 #main-content { margin: 2em; }
+
+#bio { padding: 4mm; margin-left: 38%; margin-right: 38%; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
+
+#content { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 
 img { margin-top: 5mm; border-radius: 75%; width: 110px; height: 110px; border: 6px solid #2879d0; box-shadow: 0 0 0 7px #fff,  0 0 0 8px #ddd; }
 

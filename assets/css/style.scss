@@ -34,17 +34,14 @@ header h2 {
   text-align: center;
   letter-spacing: 0; }
 
-  li {
-    padding: 10;
-    list-style-type: none;
+  ol {
+    padding: 0;
+    margin: 5px 0 10px 0;
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   }
 
-  p {
-    padding: 4mm;
-    margin-left: 38%;
-    margin-right: 38%;
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  body ol li { 
+    padding-left: .5mm; 
   }
 
   a:link {
@@ -62,7 +59,16 @@ header h2 {
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   }
 
+  h2 {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  }
+
   h3 {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  }
+
+  p {
+
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   }
   
@@ -78,6 +84,17 @@ header h2 {
 
 #main-content{
   margin: 2em;
+}
+
+#bio {
+  padding: 4mm;
+  margin-left: 38%;
+  margin-right: 38%;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+#content {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 img {

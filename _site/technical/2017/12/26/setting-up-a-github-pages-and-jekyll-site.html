@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/style.css?v=" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Begin Jekyll SEO tag v2.3.0 -->
+    <title>Thoughts of a Poindexter | Articles about topics that interest me as I progress through my career as a Back End Engineer</title>
+    <meta property="og:title" content="Thoughts of a Poindexter" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Articles about topics that interest me as I progress through my career as a Back End Engineer"
+    />
+    <meta property="og:description" content="Articles about topics that interest me as I progress through my career as a Back End Engineer"
+    />
+    <link rel="canonical" href="http://localhost:4000/" />
+    <meta property="og:url" content="http://localhost:4000/" />
+    <meta property="og:site_name" content="Thoughts of a Poindexter" />
+    <script type="application/ld+json">
+{"name":"Thoughts of a Poindexter","description":"Articles about topics that interest me as I progress through my career as a Back End Engineer","author":null,"@type":"WebSite","url":"http://localhost:4000/","publisher":null,"image":null,"headline":"Thoughts of a Poindexter","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+    <!-- End Jekyll SEO tag -->
+
+</head>
+
+<header>
+    <div class="inner">
+        <a href="http://localhost:4000/">
+            <h1>Thoughts of a Poindexter</h1>
+        </a>
+        <h2>Articles about topics that interest me as I progress through my career as a Back End Engineer</h2>
+    </div>
+</header>
+
+<center>
+<div id="content">
+        <h1 id="setting-up-my-git-hub-pagejekyll-site">Setting Up My Git Hub Page/Jekyll Site</h1>
+<p>As a back end engineer, it’s rare that I mosey into the land of front end adventures, but I wanted to give it a whirl for this blog site. I wanted something relatively easy to maintain, so I decided to go with a <a href="https://pages.github.com">Github Pages</a> / <a href="https://jekyllrb.com">Jekyll</a> combo . After completing my site, I wanted to complete a guide to help you do the same.</p>
+
+<h2 id="setup-your-blog-repository-in-github">Setup Your Blog Repository In Github</h2>
+<ol>
+  <li>Log into your Github account</li>
+  <li>On your homepage, there will be a <code class="highlighter-rouge">New Repository</code> button, click it</li>
+  <li>For the repository name, input <code class="highlighter-rouge">username.github.io</code> where the username is your Github username
+    <ul>
+      <li>It is very important for the username portion to match your username exactly. Otherwise, Github Pages will not work</li>
+    </ul>
+  </li>
+  <li>Fill out the remainder of the form as you’d like, and click <code class="highlighter-rouge">Create repository</code></li>
+  <li>Once created, your newly created repository will have a list of tabs (Code, Issues, Pull Requests, etc).Select the <code class="highlighter-rouge">Settings</code> tab</li>
+  <li>Navigate down to the Github Pages section, and click the <code class="highlighter-rouge">Change Theme</code> button</li>
+  <li>Select the theme that strikes your fancy</li>
+</ol>
+
+<h2 id="locally-clone-the-newly-created-repo">Locally Clone The Newly Created Repo</h2>
+<ol>
+  <li>Within your browser, click into your new blog repo</li>
+  <li>Along the right side, there will be a <code class="highlighter-rouge">Clone or download</code> button, click it</li>
+  <li>Make sure the the title of the pop-up is <code class="highlighter-rouge">Clone with HTTPS</code>. If it is not, click the <code class="highlighter-rouge">Use HTTPS</code> hyperlink in the upper right hand corner of the pop up</li>
+  <li>Copy the URL, and go back to your terminal</li>
+  <li>Navigate to the directory you’d like the repo to exist</li>
+  <li>Type <code class="highlighter-rouge">git clone https://github.com/…</code> (the full URL will be the one you just copied)</li>
+</ol>
+
+<h2 id="add-jekyll-dependencies-on-your-local">Add Jekyll dependencies on your local</h2>
+<ol>
+  <li>Change directories into your recently cloned repo</li>
+  <li>Check if you have a Gemfile within your directory by typing <a href="http://www.mediacollege.com/linux/command/ls.html"><code class="highlighter-rouge">ls</code></a> into your terminal</li>
+  <li>Do the following:
+    <ul>
+      <li><code class="highlighter-rouge">vim Gemfile</code> (If the file already exists, this will simply open the file. If the file does not exist, it will create it, and also allow you to enter text)</li>
+      <li>Type a lowercase <code class="highlighter-rouge">i</code> to enter Vim’s insert mode</li>
+      <li>Copy the following text:
+ <code class="highlighter-rouge">unix
+source 'https://rubygems.org' 
+gem 'github-pages', group: :jekyll_plugins</code></li>
+      <li>Paste the text into Vim using the dropdown menu (Edit → Paste). The normal <code class="highlighter-rouge">CMD - v</code> will <em>not</em> work in Vim</li>
+      <li>Hit the ESC button on your keyboard, followed by <code class="highlighter-rouge">:wq</code> to save and exit the file</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="install-jekyll-and-its-dependencies">Install Jekyll and its dependencies:</h2>
+<ol>
+  <li><code class="highlighter-rouge">bundle install</code></li>
+  <li>In the future, you can keep your bundle updated by running a simple <code class="highlighter-rouge">bundle update</code></li>
+  <li>Run your site locally: <code class="highlighter-rouge">bundle exec jekyll serve</code></li>
+  <li>View your site: <code class="highlighter-rouge">http://localhost:4000</code></li>
+</ol>
+
+<h2 id="overall-words-of-wisdom">Overall Words of Wisdom</h2>
+<p>Directory structure is key within Jekyll, so you’ll have to be mindful of this as you make your changes. If you’re ever unsure, you can always reference the <a href="https://jekyllrb.com/docs/structure/">Jekyll documentation</a>. In my short time of working with Jekyll and Github Pages, the <code class="highlighter-rouge">_layouts</code> and <code class="highlighter-rouge">_posts</code> folders have been most useful for me. Within my <code class="highlighter-rouge">_layouts</code> folder, I have two html files: one that formats my welcome page and  the other that formats my posts. If you want a layout to be your site’s default layout (say for your site’s initial page), simply name it default.html. The name will allow Jekyll to pick this layout up as your default layout. The <code class="highlighter-rouge">_posts</code> folder contains <code class="highlighter-rouge">markdown</code> files of my writings. If markdown confuses you, there is plenty of solid <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">documentation</a> on the web.</p>
+
+<p>When writing a post, make sure that you follow <a href="https://jekyllrb.com/docs/posts/">Jekyll’s rules</a> for naming your files and also include the <code class="highlighter-rouge">YAML Front Matter</code> at the start of every post.</p>
+
+<p>Any changes that you try to make within the folder that’s name equals your theme (mine is architect), it will be overwritten. Any modifications you’d like to make should be executed with either an index file, or by creating new layouts in the <code class="highlighter-rouge">_layout</code>s folder.</p>
+
+<h2 id="execute-your-first-push">Execute your first push!</h2>
+<ol>
+  <li>Once you’ve made your desired changes, type the following commands into your terminal:
+  <code class="highlighter-rouge">unix
+  git add -a 
+  git commit -a -m “first push”
+  git push</code>
+    <ul>
+      <li>If the terminal prompts you for a username/password when you try to push, it is not asking for your Github password. You need to generate a key to use as your password. The steps are provided below.</li>
+    </ul>
+    <ul>
+      <li>Within Github, click your user icon → Settings → Developer Settings → Personal Access Tokens → Generate new token</li>
+      <li>Once you navigate away from this page, you won’t be able to see the token, so copy the newly created token, and use this for your password when the terminal prompts you</li>
+    </ul>
+  </li>
+</ol>
+
+</div>
+</center>
+
+<div class="footer"> Twitter:
+    <a href="https://twitter.com/That_Poindexter">@That_Poindexter </a>
+</div>
+
+</html>
