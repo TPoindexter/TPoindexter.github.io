@@ -51,7 +51,6 @@ header h2 {
   div {
     margin-left: 3cm; 
     margin-right: 3cm;
-    text-align: center;
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   }
 
@@ -84,6 +83,10 @@ header h2 {
 
 #main-content{
   margin: 2em;
+}
+
+#contact {
+  text-align: center;
 }
 
 #bio {
@@ -123,5 +126,6 @@ code {
 } 
 
 pre{
+  margin-left: 1%;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
