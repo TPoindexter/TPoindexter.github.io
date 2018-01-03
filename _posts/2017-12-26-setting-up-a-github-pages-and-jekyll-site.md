@@ -11,7 +11,7 @@ As a back end engineer, it’s rare that I mosey into the land of front end adve
 ## Setup Your Blog Repository In Github 
 1. Log into your Github account 
 2. On your homepage, there will be a `New Repository` button, click it
-3. For the repository name, input `username.github.io` where the username is your Github username 
+3. For the repository name, input `username.github.io` where the username is your *__Github username__* 
     - It is very important for the username portion to match your username exactly. Otherwise, Github Pages will not work 
 4. Fill out the remainder of the form as you’d like, and click `Create repository` 
 5. Once created, your newly created repository will have a list of tabs (Code, Issues, Pull Requests, etc).Select the `Settings` tab
@@ -55,10 +55,11 @@ Any changes that you try to make within the folder that’s name equals your the
 
 ## Execute your first push!
 1. Once you’ve made your desired changes, type the following commands into your terminal: 
-  ```unix
-     git add -a 
-     git commit -a -m “first push”
-     git push```
+```
+git add -a 
+git commit -a -m “first push”
+git push
+```
   * If the terminal prompts you for a username/password when you try to push, it is not asking for your Github password. You need to generate a key to use as your password. The steps are provided below. 
     * Within Github, click your user icon → Settings → Developer Settings → Personal Access Tokens → Generate new token 
     * Once you navigate away from this page, you won’t be able to see the token, so copy the newly created token, and use this for your password when the terminal prompts you 
