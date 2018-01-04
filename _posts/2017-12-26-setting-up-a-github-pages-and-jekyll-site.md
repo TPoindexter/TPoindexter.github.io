@@ -16,7 +16,7 @@ As a back end engineer, it’s rare that I mosey into the land of front end adve
 4. Fill out the remainder of the form as you’d like, and click `Create repository` 
 5. Once created, your newly created repository will have a list of tabs (Code, Issues, Pull Requests, etc).Select the `Settings` tab
 6. Navigate down to the Github Pages section, and click the `Change Theme` button
-7. Select the theme that strikes your fancy 
+7. Select the theme that strikes your fancy, and commit 
 
 ## Locally Clone The Newly Created Repo
 1. Within your browser, click into your new blog repo 
@@ -32,15 +32,19 @@ As a back end engineer, it’s rare that I mosey into the land of front end adve
 3. Do the following: 
   * `vim Gemfile` (If the file already exists, this will simply open the file. If the file does not exist, it will create it, and also allow you to enter text)
   * Type a lowercase `i` to enter Vim’s insert mode
-  * Copy the following text: 
-    ```unix
-       source 'https://rubygems.org' 
-       gem 'github-pages', group: :jekyll_plugins```
-  * Paste the text into Vim using the dropdown menu (Edit → Paste). The normal `CMD - v` will *not* work in Vim 
+  * Copy the two lines into the file: 
+
+  > source 'https://rubygems.org' 
+
+  > gem 'github-pages', group: :jekyll_plugins
+
+  * If normal CMD + V does not work, paste the text into VIM using the dropdown menu (Edit → Paste). 
+  * Sometimes copying and pasting lines into VIM from an IDE or site will cause your quotes to be "smart quotes", and these smart quotes will cause isseues. To check this, after pasting, delete one of the quotes and type it back in. If it looks different than the other quotes, replace the remaining quotes in a similar fashion. 
   * Hit the ESC button on your keyboard, followed by `:wq` to save and exit the file
 
 ## Install Jekyll and its dependencies:  
 1. `bundle install`
+  - If you recently updated your Mac to High Sierra, and receive an error on any gem install (nokogiri, for example), try `xcode-select --install`
 2. In the future, you can keep your bundle updated by running a simple `bundle update`
 3. Run your site locally: `bundle exec jekyll serve`
 4. View your site: `http://localhost:4000`
@@ -50,7 +54,7 @@ Directory structure is key within Jekyll, so you’ll have to be mindful of this
 
 When writing a post, make sure that you follow [Jekyll’s rules](https://jekyllrb.com/docs/posts/) for naming your files and also include the `YAML Front Matter` at the start of every post. 
 
-Any changes that you try to make within the folder that’s name equals your theme (mine is architect), it will be overwritten. Any modifications you’d like to make should be executed with either an index file, or by creating new layouts in the `_layout`s folder. 
+Any changes that you try to make within the folder that’s name equals your Jekyll theme (mine is Architect), it will be overwritten. Any modifications you’d like to make should be executed with either an index file, or by creating new layouts in the `_layout`s folder. 
 
 
 ## Execute your first push!
