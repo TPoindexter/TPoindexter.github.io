@@ -55,11 +55,12 @@ Any changes that you try to make within the folder that’s name equals your the
 
 ## Execute your first push!
 1. Once you’ve made your desired changes, type the following commands into your terminal: 
-```
-git add -a 
-git commit -a -m “first push”
-git push
-```
+> git add -a 
+
+> git commit -a -m “first push”
+
+> git push
+
   * If the terminal prompts you for a username/password when you try to push, it is not asking for your Github password. You need to generate a key to use as your password. The steps are provided below. 
     * Within Github, click your user icon → Settings → Developer Settings → Personal Access Tokens → Generate new token 
     * Once you navigate away from this page, you won’t be able to see the token, so copy the newly created token, and use this for your password when the terminal prompts you 
