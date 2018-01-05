@@ -397,13 +397,15 @@ ol { padding: 0; margin: 5px 0 10px 0; font-family: 'Architects Daughter', 'Helv
 
 body ol li { padding-left: .5mm; }
 
+li { margin-left: 13px; }
+
 a:link { text-decoration: underline; }
 
 div { margin-left: 3cm; margin-right: 3cm; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 
 h1 { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 
-h2 { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
+h2 { margin-left: 0px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 
 h3 { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }
 

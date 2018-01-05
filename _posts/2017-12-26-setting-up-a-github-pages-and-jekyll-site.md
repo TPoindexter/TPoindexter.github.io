@@ -59,6 +59,7 @@ Any changes that you try to make within the folder that’s name equals your Jek
 
 ## Execute your first push!
 1. Once you’ve made your desired changes, type the following commands into your terminal: 
+
 > git add -a 
 
 > git commit -a -m “first push”
