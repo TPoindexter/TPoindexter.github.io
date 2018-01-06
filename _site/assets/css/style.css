@@ -399,6 +399,8 @@ body ol li { padding-left: .5mm; }
 
 li { margin-left: 13px; }
 
+li.nostyle { list-style-type: none; }
+
 a:link { text-decoration: underline; }
 
 div { margin-left: 3cm; margin-right: 3cm; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; }

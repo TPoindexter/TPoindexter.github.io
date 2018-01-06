@@ -48,6 +48,10 @@ header h2 {
     margin-left: 13px;
   }
 
+  li.nostyle {
+    list-style-type: none;
+  }
+
   a:link {
     text-decoration: underline;
   }
