@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting Up My Github Pages/Jekyll Site"
+title: "Setting Up My Github Pages/Jekyll Site - January 2018"
 date: 2017-12-26 
 categories: technical 
 ---

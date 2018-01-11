@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why Organizations Like Black Code Collective Need to Exist"
+title: "Why Organizations Like Black Code Collective Need to Exist - December 2017"
 date: 2017-12-09 
 categories: experiences 
 ---
